@@ -1,0 +1,28 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+	display: flex;
+}
+
+.center {
+	align-items: center;
+}
+
+.horizontal-space {
+	margin-left: 16pt;
+	margin-right: 16pt;
+}
+
+.horizontal {
+	flex-direction: row;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+.thumbnail {
+	height: 2em;
+}

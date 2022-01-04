@@ -8,6 +8,8 @@ class App {
 
 	configure() {
 		this.express.disable('x-powered-by')
+		this.express.use(express.static('public'))
+
 		this.express.get('/', this.sendPortfolio)
 		this.express.get('/version', this.sendVersionInfo)
 		this.express.listen(Configuration.shared.port, () => {
