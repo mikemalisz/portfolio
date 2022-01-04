@@ -2,12 +2,22 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.fixed-width {
+	max-width: 450pt;
+	padding-left: 8pt;
+	padding-right: 8pt;
+}
+
 .flex {
 	display: flex;
 }
 
 .center {
 	align-items: center;
+}
+
+.left-align-text {
+	text-align: left;
 }
 
 .horizontal-space {
